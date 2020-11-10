@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhnenoto"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/btnhoaqua"
+            android:layout_width="150dp"
+            android:layout_height="147dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/tron"
+            android:src="@drawable/traicay"></ImageButton>
+
+        <ImageButton
+            android:background="@drawable/tron"
+            android:src="@drawable/hinhdang2"
+            android:id="@+id/btnhinhkhoi"
+            android:layout_width="150dp"
+            android:layout_height="147dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btndongvat"
+            android:layout_width="150dp"
+            android:layout_height="147dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/tron"
+            android:src="@drawable/dongvat2"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/btnbekiemtra"
+            android:layout_width="150dp"
+            android:layout_height="147dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/tron"
+            android:src="@drawable/bekiemtra">
+
+
+        </ImageButton>
+    </LinearLayout>
+
+
+</LinearLayout>

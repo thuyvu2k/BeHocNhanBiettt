@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="220dp"
+    android:padding="10dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="@null"
+
+    >
+
+    <LinearLayout
+        android:background="@drawable/anhnenrung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/anhdv"
+            android:layout_width="140dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/textdocdv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="con gà" />
+        <TextView
+            android:id="@+id/textmadv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
